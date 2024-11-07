@@ -87,7 +87,7 @@ namespace Febucci.UI.Examples
         // ---- OTHER PART OF THE SCRIPT ----
         // This makes the script run faking a dialogue system
         [SerializeField] TypewriterCore typewriter;
-        [SerializeField, TextArea(1, 5)] string[] dialoguesLines;
+        [SerializeField, TextArea(1, 5)] string[] dialoguesLines;  
         [SerializeField] Sprite[] faces;
         [SerializeField] SpriteRenderer faceRenderer;
         [SerializeField] GameObject continueText;
